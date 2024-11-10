@@ -1,0 +1,8 @@
+my_string=input('Напиши любое предложение: ')
+kol=(len(my_string))
+print('здесть',kol,'символов')
+print('верхний регистор:',my_string.upper())
+print('нижний регистор:',my_string.lower())
+print('без пробелов:',my_string.replace(' ',''))
+print('первый символ:',my_string[0])
+print('последний символ:',my_string[-1])
