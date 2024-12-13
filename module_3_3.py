@@ -11,5 +11,6 @@ values_list = [12, "слово", True]
 values_dict = {"a" : 25, "b" : "Строка" , "c" : True }
 print_params(*values_list)
 print_params(**values_dict)
-values_list_2 = ('строка', 56)
+
+values_list_2 = [54.32, 'Строка' ]
 print_params(*values_list_2, 42)
