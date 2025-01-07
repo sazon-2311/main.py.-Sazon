@@ -14,8 +14,8 @@ class Plant:
     name = ""  # Индивидуальное название каждого растения
 
     def __init__(self, name):
-        self.edible = False
-        self.name = name
+        self.edible = False  # Съедобность
+        self.name = name  # Индивидуальное название каждого растения
 
 
 class Mammal(Animal):
